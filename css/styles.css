@@ -1,0 +1,173 @@
+#title {
+  background-color: #ff4c68;
+  color: whitesmoke;
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+/* Headings */
+.big_heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section_heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* NavBar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+/* Download Buttons */
+.download_button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Image */
+.image_iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature_icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.feature_icon:hover {
+  color: #ff4c68;
+}
+.feature_text {
+  color: #8f8f8f;
+}
+.feature_box {
+  /* margin-bottom: 100px; */
+  padding: 5%;
+}
+.feature_title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 4% 0;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial_img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 0 7% 3%;
+}
+.press_img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15% 3%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 7% 15%;
+}
+.pricing-card {
+  padding: 3% 2%;
+}
+.pricing_text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.card-header_text {
+  font-size: 1.5rem;
+}
+
+/* call to action */
+#cta {
+  padding: 7% 15%;
+  color: white;
+  background-color: #ff4c68;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15% 0;
+  color: gray;
+}
+.footer_icon {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 10px 20px;
+}
+
+/* Mobile Display */
+
+@media screen and (max-width: 991px) {
+  .image_iphone {
+    position: static;
+    width: 60%;
+    transform: none;
+  }
+  #title {
+    text-align: center;
+  }
+  .cta_text {
+    /* width: 80%; */
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
